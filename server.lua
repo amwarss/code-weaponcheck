@@ -1,6 +1,6 @@
 QBCore = exports['qb-core']:GetCoreObject()
 
-local discordWebhookURL = 'https://discordapp.com/api/webhooks/1336462025341141073/VN2kr0sxGIWsj9lgUAzSLkVEis7DoQgOYuzaBQuVOPDNnjPnlKsW3uHx76CDEelyZYMl'
+local discordWebhookURL = 'https://discordapp.com/api/webhooks/'
 
 local function sendToDiscord(playerName, playerId, weaponName)
     local embed = {
