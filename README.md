@@ -11,7 +11,7 @@
 ## المتطلبات
 - سيرفر يعمل بنظام **QBCore**.
 - سكربت **qb-inventory** أو أي سكربت حقيبة متوافق.
-- سكربت **qb-policeweapon** (أو أي سكربت مسؤول عن التحقق من صلاحيات استخدام الأسلحة).
+- سكربت **code-weaponcheck** (سكربتنا المسؤول عن التحقق من صلاحيات استخدام الأسلحة).
 
 ---
 
@@ -28,7 +28,7 @@ This script prevents non-military players from using military equipment, helping
 ## Requirements
 - A server running **QBCore**.
 - **qb-inventory** script or any compatible inventory script.
-- **code-weaponcheck** script (or any script handling weapon usage permissions).
+- **code-weaponcheck** script (our script handling weapon usage permissions).
 
 
 Search for this RegisterNetEvents
